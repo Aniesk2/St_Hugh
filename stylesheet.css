@@ -2,16 +2,28 @@ body {
 	padding-top:40px;
 }
 
-.divider {
+.content {
 	height:2000px;
 	background-color: #F0F0F0;
 	margin-top:3%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom:5%;
+	margin-bottom:1%;
 	width:800px;
 	border-radius:15px;
 }
+
+.footer {
+	height:100px;
+	background-color: #003300;
+	float:bottom;
+	color:white;
+	text-align:center;
+	font-size:20px;
+	font-family: "Times",Georgia,Serif;
+}
+
+
 
 
 li {
@@ -36,7 +48,7 @@ li {
 
   /* Gradients for modern browsers, replace as you see fit */
   background-image: -moz-linear-gradient(top, #003300, #004400);
-  background-image: -ms-linear-gradient(top, #003300, #006600);
+  background-image: -ms-linear-gradient(top, #003300, #004400);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#003300), to(#004400));
   background-image: -webkit-linear-gradient(top, #003300, #004400);
   background-image: -o-linear-gradient(top, #003300, #004400);
@@ -44,7 +56,7 @@ li {
   background-repeat: repeat-x;
 
   /* IE8-9 gradient filter */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003300', endColorstr='#004400', GradientType=0);
 
 }
 
@@ -68,11 +80,66 @@ li {
 	margin-left:10%;
 }
 
+#hover a:hover {
+  color:#333333;
+  background-color: #2c2c2c; /* fallback color, place your own */
+  /* Gradients for modern browsers, replace as you see fit */
+  background-image: -moz-linear-gradient(top, #F5F5F5, #EEEEEE);
+  background-image: -ms-linear-gradient(top, #F5F5F5, #EEEEEE);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F5F5F5), to(#EEEEEE));
+  background-image: -webkit-linear-gradient(top, #F5F5F5, #EEEEEE);
+  background-image: -o-linear-gradient(top, #F5F5F5, #EEEEEE);
+  background-image: linear-gradient(top, #F5F5F5, #EEEEEE);
+  background-repeat: repeat-x;
+  /* IE8-9 gradient filter */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#EEEEEE', GradientType=0);
 
 
-#header {
 }
 
-#footer {
+#statue {
+	margin-top:20px;
+	margin-right:10px;
+	float:right;
+	height: 500px;
+	width: 250px;
 }
+
+#information {
+	height:500px;
+	width:500px;
+	background-color: #fffbcb;
+	margin-left:20px;
+	margin-top:20px;
+	float:left;
+	border-radius: 5px;
+}
+
+h1,h2,h3,h4,h5 {
+	text-align:center;
+}
+
+#welcome {
+	
+	width:90%;
+	height:60%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: none; 
+}
+
+#welcome p {
+	font-size:16px;
+	text-align:center;
+}
+
+#adress {
+	font-weight: bold;
+}
+
+
+
+
+
+
 
